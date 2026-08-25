@@ -5,9 +5,9 @@ setup(
     version='1.0.0',
     packages=find_packages(),
     install_requires=[
-            'requests',
-            'json'
+            'requests>=2.31.0',
     ],
+    python_requires='>=3.6',
     author='hackerman1337',
     author_email='chuk@chuk.dev',
     description='A Python library for Tineye',
@@ -24,5 +24,8 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
     ],
 )
